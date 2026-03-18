@@ -32,11 +32,6 @@ main img {
     float: right;
 }
 
-main p {
-    font-family: var(--primary-font) color: red;
-    padding: 0;
-}
-
 aside {
     width: 20rem;
     font-family: Arial, Helvetica, sans-serif;
