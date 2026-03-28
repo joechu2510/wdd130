@@ -72,7 +72,7 @@ h1 {
 article {
     position: absolute;
     top: 100px;
-    color: #fff
+    color: var(--secondary-color)
 }
 
 .hero article img {
