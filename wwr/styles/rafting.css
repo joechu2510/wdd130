@@ -185,3 +185,101 @@ footer {
     box-sizing: border-box;
     border: 1px solid black;
 }
+
+.contact_info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact_info h1 {
+    margin-bottom: 5px;
+    background: none;
+    position: static;
+    color: var(--primary-color);
+}
+
+.form-container {
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+    align-items: flex-start;
+}
+
+.map {
+    flex: 1;
+}
+
+form {
+    flex: 1;
+}
+
+.quiz_item {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+
+.quiz_item label:first-child {
+    width: 120px;
+    text-align: right;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.checkbox-row {
+    padding-left: 135px;
+    font-size: 13px;
+}
+
+button {
+    margin-left: 135px;
+    width: calc(100% - 135px);
+    padding: 10px;
+    background-color: #efefef;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+.employee_section {
+    background-color: #f0f0f0;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.employee_grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.employee_card {
+    text-align: center;
+}
+
+.employee_card img {
+    width: 120px;
+    height: auto;
+    background-color: #ccc;
+    border-radius: 2px;
+}
+
+.employee_profile {
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-bottom: 1em;
+}
